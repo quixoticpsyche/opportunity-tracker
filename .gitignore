@@ -1,0 +1,19 @@
+# clasp (Apps Script CLI) — project id, not needed by others
+.clasp.json
+.clasprc.json
+
+# Never commit credentials
+*.key
+*secret*
+*credentials*
+.env
+
+# OS / editor cruft
+.DS_Store
+*.swp
+.vscode/
+
+# Do not commit exported personal data
+*.csv
+*.xlsx
+opportunities-export*
